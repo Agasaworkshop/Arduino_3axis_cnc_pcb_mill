@@ -2,9 +2,9 @@
 Arduino 3 axis CNC machine code (without shield) by Agasa's workshop ver: 1.0;  
 
 This is a code by Agasa's workshop (https://www.youtube.com/channel/UCwMwQgrOfzSEIlK0ZehTuAA)  
-This code is meant to control a 3 axis CNC machine with an arduino nano (or similar arduino boards), I've designed it to control a small CNC pcb engraver but you could edit it a bit  
-to make something else, it does not use any dedicated cnc shield or controller, it is used directly with the single stepper motor drivers, it is made to read from an SD card or serial  
-monitor a code alternative to g-code (a simpler code) that you can generate starting from g-code with the script included in the github repo for this project, it's written in c.  
+
+This code is meant to control a 3 axis CNC machine with an arduino nano (or similar arduino boards), I've designed it to control a small CNC pcb engraver but you could edit it a bit to make something else, it does not use any dedicated cnc shield or controller, it is used directly with the stepper motor drivers, it is made to read commands from an SD card or serial monitor   
+It uses a code alternative to g-code (a simpler code) that you can generate starting from g-code with the script included in the GitHub repo for this project, it's written in c and called cnc.c.   
 
 It's important to note that this code uses the same pin wired up to the 3 axis limit switches in paralel, this saves more pins but has some limitations.  
 
